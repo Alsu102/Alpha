@@ -1,6 +1,8 @@
 import java.util.Date;
 
+//abstract class implements Item
 public abstract class Product implements Item{
+  //declaring calass variables
   int serialNumber;
   Date manufacturedOn;
   String name;
